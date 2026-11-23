@@ -24,9 +24,11 @@ Data: RDS MySQL (private) and EFS (media uploads). Secrets in AWS Secrets Manage
 RDS is single-AZ because of Free plan restrictions. Multi-AZ is a one-setting change. See the documentation, section 6.
 
 ## Screenshots
-![VPC](screenshots/01-vpc-resource-map.png)
-![Site via CloudFront](screenshots/18-website.png)
-[add the key ones]
+![VPC](screenshots/01-resourcemap.png)
+
+![Site via CloudFront](screenshots/18-CloudFrontURL.png)
+![connecting to two different instances](screenshots/19-twodifferentinstances.png)
+![Uploading media files](screenshots/20-Mediaupload.png)
 
 ## Setup summary
 1. VPC, subnets, gateways, security groups
